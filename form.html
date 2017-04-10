@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Salman Salem</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+  </head>
+  <body>
+
+    <nav class = "navbar navbar-custom navbar-fixed-top navbar-shrink ">
+      <div class="container">
+        <div class="navber-header">
+          <a class="navbar-brand" href="./index.html">Products</a>
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                      <span class="sr-only">Toggle navigation</span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+          </button>
+        </div>
+         <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav navbar-right">
+              <a href="#page-top"></a>
+              <li><a href="./form.html">Apply now</a></li>
+              <li><a href="./about.html">About Us</a></li>
+            </ul>
+        </div>
+      </div>
+    </nav>
+
+
+    <div class="container" id="form">
+      <div id="formCon">
+        <form action="https://formspree.io/salmansalem9022@gmail.com" method="POST">
+          <h1>Apply Now!<span>Sign up and tell us what you think of the site!</span></h1>
+              <div class="section"><span>1</span>First Name &amp; Address</div>
+              <label for="fname">Name</label>
+              <input type="text"name="name" placeholder="Your Name">
+              </label for="email">Email</label>
+              <input type="text" name="_replyto" placeholder="Your Email" />
+              <div class="section"><span>2</span>Number &amp; Gender</div>
+              <label for="number">Number</label>
+              <input type="tel" name="number" placeholder="Your number" />
+              <label for="gender">Gender</label><br>
+              <label class="form-check-label">
+              <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="Male" name="Interests"> Male
+              </label>
+              <label class="form-check-label">
+              <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="Female" name="Interests"> Female
+              </label>
+              <div class="section"><span>3</span>Date of Birth &amp; Income</div>
+              <label for="date">Date Of Birth</label>
+              <input type="date"name="date"/>
+              <label for="income">Income</label>
+              <input type="text"name="Income" placeholder="XXXXX"/>
+              <div class="section"><span>4</span>Leaves us your feedback</div>
+              <textarea name="comments" type="text"></textarea>
+              <div class="section"><span>5</span>Intrestes</div>
+                <select id="job" name="interests">
+                  <option value="Arts & Entertainment">Arts & Entertainment</option>
+                  <option value="Autos & Vehicles">Autos & Vehicles</option>
+                  <option value="Health & Fitness">Health & Fitness</option>
+                  <option value="Books & Literature">Books & Literature</option>
+                  <option value="Business">Business</option>
+                  <option value="Real Estate">Real Estate</option>
+                  <option value="Science">Science</option>
+                  <option value="Sports">Sports</option>
+                  <option value="Trave">Trave</option>
+                  <option value="Shopping">Shopping</option>
+                  <option value="other">Other</option>
+                </select>
+             <input type="submit" value="Send" class="btn btn-primary" id="formBtn">
+        </form>
+      </div>
+    </div>
+
+      <!-- <label class="form-check-label">
+      <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="Arts & Entertainment" name="Interests"> Arts & Entertainment
+      </label>
+      <label class="form-check-label">
+      <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="Autos & Vehicles" name="Interests"> Autos & Vehicles
+      </label>
+      <label class="form-check-label">
+      <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="Health & Fitness" name="Interests"> Health & Fitness
+      </label>
+      <label class="form-check-label">
+      <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="Books & Literature" name="Interests"> Books & Literature
+      </label>
+      <label class="form-check-label">
+      <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="Business" name="Interests"> Business
+      </label>
+      <label class="form-check-label">
+      <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="Computer & Electronics" name="Interests">Computer & Electronics
+      </label>
+      <label class="form-check-label">
+      <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="Fashion" name="Interests"> Fashion
+      </label>
+      <label class="form-check-label">
+      <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="Hobbies & Leisure" name="Interests"> Hobbies & Leisure
+      </label>
+      <label class="form-check-label">
+      <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="Home & Garden" name="Interests"> Home & Garden
+      </label>
+      <label class="form-check-label">
+      <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="Law & Government" name="Interests"> Law & Government
+      </label>
+      <label class="form-check-label">
+      <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="News" name="Interests"> News
+      </label>
+      <label class="form-check-label">
+      <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="People & Society" name="Interests"> People & Society
+      </label>
+      <label class="form-check-label">
+      <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="Real Estate" name="Interests"> Real Estate
+      </label>
+      <label class="form-check-label">
+      <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="Science" name="Interests"> Science
+      </label>
+      <label class="form-check-label">
+      <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="Shopping" name="Interests"> Shopping
+      </label>
+      <label class="form-check-label">
+      <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="Sports" name="Interests"> Sports
+      </label>
+      <label class="form-check-label">
+      <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="Travel" name="Interests"> Travel
+      </label> -->
+
+      <footer class="navbar">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-4 text-center">
+              <h4>Location</h4>
+              <p>174-1027 Davie Street<br>Canada Vancouver</p>
+            </div>
+            <div class="col-md-4 text-center" id="socialMedia">
+              <h4>Contact Us</h4>
+              <a href="https://www.facebook.com/"><i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i></a>
+              <a href="https://www.instagram.com/"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
+              <a href="https://twitter.com/"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a><br>
+              <i class="fa fa-mobile fa-2x" aria-hidden="true"> (+1)-778-772-3071</i><br>
+              <i class="fa fa-envelope fa-2x" aria-hidden="true"> salmansalem9022@gmail.com</i>
+            </div>
+            <div class="col-md-4 text-center">
+              <h4>More IFO..</h4>
+              <ul id="moreInfo">
+                <li>Help</li>
+                <li>Help</li>
+                <li>Help</li>
+              </ul>
+            </div>
+          </div>
+          </div>
+        </div>
+      </footer>
+  </body>
+</html>
