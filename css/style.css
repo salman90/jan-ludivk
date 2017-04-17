@@ -13,11 +13,6 @@ body{
 #lastName{
   margin-left: -5px;
 }
-
-#topImage img {
-  margin-top: 30px;
-  width: 100%;
-}
 #formCon{
   /*width: 800px;*/
   padding: 30px;
@@ -137,7 +132,8 @@ margin-bottom: 10px;
     color: #fff;
 }
 
-@media(min-width:768px) {
+
+@media screen (min-width:768px) {
     .navbar-custom {
         /*padding: 25px 0;*/
         border: 0;
@@ -162,9 +158,11 @@ margin-bottom: 10px;
    }
   }
 
-  #productList{
-    list-style-type: none;
+  #topImage img {
+    margin-top: 30px;
+    width: 100%;
   }
+
 /*homeCon*/
 #des{
   margin-top:20px;
@@ -183,11 +181,11 @@ margin-bottom: 10px;
   letter-spacing: 1.5px;
   font-size: 20px;
 }
- .btn-info{
-  margin-left: 70px;
+ .btn{
+  /*margin-left: 70px;*/
   width:100%;
   margin-top: 10px;
-  padding: 15px;
+  padding: 10px 12px !important;
 }
   footer{
     margin-top: 100px;
@@ -214,4 +212,11 @@ p{
   font-size: 20px;
   margin-top: 15px;
   font-family: 'Oswald', serif;
+}
+
+
+.menu ul{
+ display:table;
+ margin:0 auto;
+ list-style-type: none;
 }
