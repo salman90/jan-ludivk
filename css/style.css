@@ -157,10 +157,27 @@ margin-bottom: 10px;
        font-size: 1.5em;
    }
   }
-
+#topImage{
+  position: relative;
+}
   #topImage img {
     margin-top: 30px;
     width: 100%;
+    display:inline-block;
+    position:relative;
+  }
+  .btn.btn-default{
+    position:absolute;right:25%;top:80%;
+    width: 40%;
+    padding: 18px 12px;
+    color:#fff;
+    background-color:#5bc0de;
+    border-color:#46b8da;
+  }
+  .btn-default:hover{
+      color:#fff !important;
+      background-color:#31b0d5 !important;
+      border-color:#269abc !important;
   }
 
 /*homeCon*/
@@ -181,7 +198,7 @@ margin-bottom: 10px;
   letter-spacing: 1.5px;
   font-size: 20px;
 }
- .btn{
+ .btn-info{
   /*margin-left: 70px;*/
   width:100%;
   margin-top: 10px;
